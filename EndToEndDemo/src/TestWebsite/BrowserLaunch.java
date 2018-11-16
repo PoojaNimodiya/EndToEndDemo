@@ -29,7 +29,7 @@ public class BrowserLaunch {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 		System.out.println("Website Url::::"+driver.getCurrentUrl());
-		System.out.println("Website title::::"+driver.getTitle());
+		System.out.println("Website title:::::"+driver.getTitle());
 	}*/
 	
 	
